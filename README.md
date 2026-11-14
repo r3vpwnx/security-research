@@ -15,9 +15,21 @@ notified and a fix or a reasonable disclosure window has passed.
 
 Newest first.
 
-| Date | Target | Class | CVE | Write-up |
+| Date | Target | Class | CVE / GHSA | Write-up |
 |------|--------|-------|-----|----------|
-| _(none published yet)_ | | | | |
+| 2026-11-10 | Head Start TTADP (US HHS) | Broken access control (cross-region IDOR) | [GHSA-9r9x](https://github.com/HHS/Head-Start-TTADP/security/advisories/GHSA-9r9x-g862-525c), [GHSA-q859](https://github.com/HHS/Head-Start-TTADP/security/advisories/GHSA-q859-79hf-rpr3) | [Write-up](https://r3vpwnx.space/research/head-start-ttadp-cross-region-idor/) |
+| 2026-11-09 | PyMoDAQ | Deserialization + eval RCE | [CVE-2026-120859](https://www.cve.org/CVERecord?id=CVE-2026-120859) | [Write-up](https://r3vpwnx.space/research/pymodaq-h5-deserialization-rce/) |
+| 2026-11-09 | mpv | Playlist / CRLF injection | [CVE-2026-123095](https://www.cve.org/CVERecord?id=CVE-2026-123095) | [Write-up](https://r3vpwnx.space/research/mpv-ytdl-playlist-injection/) |
+| 2026-11-09 | labbench (NIST) | Deserialization RCE | [CVE-2026-120833](https://www.cve.org/CVERecord?id=CVE-2026-120833) | [Write-up](https://r3vpwnx.space/research/labbench-read-pickle-rce/) |
+| 2026-11-09 | h5io | Code injection (eval/import/unpickle) | [CVE-2026-120499](https://www.cve.org/CVERecord?id=CVE-2026-120499) | [Write-up](https://r3vpwnx.space/research/h5io-read-hdf5-code-injection/) |
+| 2026-11-03 | QOwnNotes | Path traversal | [GHSA-fmqx](https://github.com/pbek/QOwnNotes/security/advisories/GHSA-fmqx-8x8h-gf76) | [Write-up](https://r3vpwnx.space/research/qownnotes-media-path-traversal/) |
+| 2026-11-01 | imagecodecs | Memory-safety DoS | [CVE-2026-120251](https://www.cve.org/CVERecord?id=CVE-2026-120251), [CVE-2026-120252](https://www.cve.org/CVERecord?id=CVE-2026-120252) | [Write-up](https://r3vpwnx.space/research/imagecodecs-decoder-dos/) |
+| 2026-11-01 | GSAS-II (DOE / Argonne) | Deserialization RCE | [GHSA-ppf5](https://github.com/AdvancedPhotonSource/GSAS-II/security/advisories/GHSA-ppf5-4gw2-37j9) | [Write-up](https://r3vpwnx.space/research/gsas-ii-gpx-pickle-rce/) |
+| 2026-10-31 | VNote | OS command injection (RCE) | [CVE-2026-126042](https://www.cve.org/CVERecord?id=CVE-2026-126042) | [Write-up](https://r3vpwnx.space/research/vnote-tasks-cmdinjection/) |
+| 2026-10-31 | CherryTree | OS command injection (RCE) | [CVE-2026-118692](https://www.cve.org/CVERecord?id=CVE-2026-118692) \* | [Write-up](https://r3vpwnx.space/research/cherrytree-weblink-cmdinjection/) |
+| 2026-10-24 | QOwnNotes | OS command injection (RCE) | [GHSA-jp2h](https://github.com/pbek/QOwnNotes/security/advisories/GHSA-jp2h-69pm-p69c) | [Write-up](https://r3vpwnx.space/research/qownnotes-git-cmdinjection/) |
+
+\* CherryTree: independent discovery; the CVE is credited to another researcher, and r3vpwnx is credited in the upstream fix.
 
 Advisories are added here as coordinated-disclosure windows close.
 
