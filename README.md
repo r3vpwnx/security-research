@@ -17,6 +17,15 @@ Newest first.
 
 | Date | Target | Class | CVE / GHSA | Write-up |
 |------|--------|-------|-----|----------|
+| 2026-11-24 | RedVector | Hard-coded credentials + command injection (RCE) | [CVE-2026-136168](https://www.cve.org/CVERecord?id=CVE-2026-136168) | [Write-up](https://r3vpwnx.space/research/redvector-default-token-command-rce/) |
+| 2026-11-24 | vedo | Deserialization RCE | [CVE-2026-136167](https://www.cve.org/CVERecord?id=CVE-2026-136167) | [Write-up](https://r3vpwnx.space/research/vedo-npy-allow-pickle-rce/) |
+| 2026-11-24 | OpenShot Video Editor | Deserialization RCE | [CVE-2026-134704](https://www.cve.org/CVERecord?id=CVE-2026-134704) | [Write-up](https://r3vpwnx.space/research/openshot-osp-pickle-rce/) |
+| 2026-11-24 | Gammapy | Eval injection (RCE) | [CVE-2026-134694](https://www.cve.org/CVERecord?id=CVE-2026-134694) | [Write-up](https://r3vpwnx.space/research/gammapy-wcsshape-fits-eval-rce/) |
+| 2026-11-23 | hickle | Deserialization RCE (safe=True bypass) | [CVE-2026-103926](https://www.cve.org/CVERecord?id=CVE-2026-103926), [GHSA-mwxj](https://github.com/telegraphic/hickle/security/advisories/GHSA-mwxj-5v28-gh2q) | [Write-up](https://r3vpwnx.space/research/hickle-safe-flag-pickle-rce/) |
+| 2026-11-21 | diffpy.structure | Eval injection (RCE) | [CVE-2026-133708](https://www.cve.org/CVERecord?id=CVE-2026-133708) | [Write-up](https://r3vpwnx.space/research/diffpy-structure-cif-eval-rce/) |
+| 2026-11-21 | targets (R, rOpenSci) | Code injection (RCE) | [CVE-2026-133707](https://www.cve.org/CVERecord?id=CVE-2026-133707) | [Write-up](https://r3vpwnx.space/research/targets-store-format-eval-rce/) |
+| 2026-11-21 | yt | Eval injection (RCE) | [CVE-2026-132751](https://www.cve.org/CVERecord?id=CVE-2026-132751) | [Write-up](https://r3vpwnx.space/research/yt-ytdata-con-args-rce/) |
+| 2026-11-14 | RedAmon | Missing authentication (root shell) + BOLA | [CVE-2026-129855](https://www.cve.org/CVERecord?id=CVE-2026-129855), [CVE-2026-129854](https://www.cve.org/CVERecord?id=CVE-2026-129854) | [Write-up](https://r3vpwnx.space/research/redamon-unauth-pty-and-session-bola/) |
 | 2026-11-10 | Head Start TTADP (US HHS) | Broken access control (cross-region IDOR) | [GHSA-9r9x](https://github.com/HHS/Head-Start-TTADP/security/advisories/GHSA-9r9x-g862-525c), [GHSA-q859](https://github.com/HHS/Head-Start-TTADP/security/advisories/GHSA-q859-79hf-rpr3) | [Write-up](https://r3vpwnx.space/research/head-start-ttadp-cross-region-idor/) |
 | 2026-11-09 | PyMoDAQ | Deserialization + eval RCE | [CVE-2026-120859](https://www.cve.org/CVERecord?id=CVE-2026-120859) | [Write-up](https://r3vpwnx.space/research/pymodaq-h5-deserialization-rce/) |
 | 2026-11-09 | mpv | Playlist / CRLF injection | [CVE-2026-123095](https://www.cve.org/CVERecord?id=CVE-2026-123095) | [Write-up](https://r3vpwnx.space/research/mpv-ytdl-playlist-injection/) |
