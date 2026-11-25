@@ -17,6 +17,8 @@ Newest first.
 
 | Date | Target | Class | CVE / GHSA | Write-up |
 |------|--------|-------|-----|----------|
+| 2026-11-25 | asar-py | Path traversal (archive extraction -> RCE) | [CVE-2026-136923](https://www.cve.org/CVERecord?id=CVE-2026-136923) | [Write-up](https://r3vpwnx.space/research/asar-py-extract-path-traversal/) |
+| 2026-11-25 | PyBioNetGen | Eval injection (RCE) | [CVE-2026-136922](https://www.cve.org/CVERecord?id=CVE-2026-136922) | [Write-up](https://r3vpwnx.space/research/pybionetgen-bngxml-sympify-rce/) |
 | 2026-11-24 | RedVector | Hard-coded credentials + command injection (RCE) | [CVE-2026-136168](https://www.cve.org/CVERecord?id=CVE-2026-136168) | [Write-up](https://r3vpwnx.space/research/redvector-default-token-command-rce/) |
 | 2026-11-24 | vedo | Deserialization RCE | [CVE-2026-136167](https://www.cve.org/CVERecord?id=CVE-2026-136167) | [Write-up](https://r3vpwnx.space/research/vedo-npy-allow-pickle-rce/) |
 | 2026-11-24 | OpenShot Video Editor | Deserialization RCE | [CVE-2026-134704](https://www.cve.org/CVERecord?id=CVE-2026-134704) | [Write-up](https://r3vpwnx.space/research/openshot-osp-pickle-rce/) |
